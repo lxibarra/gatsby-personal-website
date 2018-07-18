@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Poiret+One');
 
+$content-max-width: 960px;
 $yellow-bg-start:rgba(241,231,103,1);
 $yellow-bg-end:rgba(255,248,166,1);
 $border-color:#000;
 $theme-font: 'Oswald', sans-serif;
 
-$content-max-width: 960px;
+
 
 @mixin anydradient-gradient($bg-gr-start: #ccc, $bg-gr-end:#000) {
   background: $bg-gr-start;
@@ -43,6 +44,28 @@ body {
   font-family:$theme-font;
 }
 
+main {
+  max-width: $content-max-width;
+  text-align: left;
+  margin: 0 auto;
+}
+
+p {
+  // font-family: 'Dancing Script', cursive;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+}
+
+// general styles
+h4 {
+      font-size: 2em;
+      font-weight: normal;
+}
+
+small {
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
 /*header styles */
 
 header {
@@ -72,6 +95,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  margin-bottom: 20px;
   h2 {
     font-size: 4em;
     margin:0;
@@ -86,3 +110,31 @@ header {
 }
 
 /*-------------*/
+
+/* footer styles */
+footer {
+    max-width: $content-max-width;
+    margin: 0 auto;
+    text-align: left;
+    border-top: dotted 1px #000;
+    padding-top: 10px;
+    ul {
+      display:inline-block;
+      margin:0;
+      padding:0;
+      list-style-type: none;
+      li {
+        display:inline-block;
+        margin-left: 15px;
+        a {
+          color: #000;
+          text-decoration: none;
+          font-style: italic;
+        }&:visited {
+          color: #000;
+        }
+      }&:first-child {
+        margin-left:4px;
+      }
+    }
+}
