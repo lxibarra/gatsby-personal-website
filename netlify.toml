@@ -1,6 +1,6 @@
 # A basic redirects rule
 [[redirects]]
-  from = "http://unruffled-rosalind-5e4b08.netlify.com/*"
+  from = "https://unruffled-rosalind-5e4b08.netlify.com/*"
   to = "https://doitfy.com/:splat"
   status = 301
   force = true
