@@ -1,5 +1,6 @@
 import React from 'react'
 import '../404.scss';
+import Footer from '../components/footer/Footer';
 
 const NotFoundPage = () => (
   <div className="text-center">
@@ -20,6 +21,7 @@ const NotFoundPage = () => (
       </div>
     </div>
   </div>
+  <Footer></Footer>
 </div>
 );
 

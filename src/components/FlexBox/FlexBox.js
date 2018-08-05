@@ -12,9 +12,11 @@ export const Flex = ({direction, justify, children}) =>(
   </div>
 );
 
-export const FlexContent = ({flexGrow, children}) => (
+export const FlexContent = ({flexGrow, textAlign, margin, children}) => (
   <div style={{
-    flexGrow: flexGrow
+    flexGrow: flexGrow,
+    textAlign: textAlign || 'left',
+    margin: margin || 'inherit'
   }}>
     {children}
   </div>

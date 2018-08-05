@@ -22,18 +22,18 @@ const IndexPage = () => (
           </FlexContent>
       </Flex>
       <Flex>
-          <FlexContent flexGrow="1">
+          <FlexContent flexGrow="1" textAlign="justify">
             <BlockContent
               title="Education"
               paragraph="Got my college degree and masters on Information Technology with a specialty on database design.
                         Mostly worked with data warehouse designs and Business intelligence tools.">
             </BlockContent>
           </FlexContent>
-          <FlexContent flexGrow="1">
+          <FlexContent flexGrow="1" textAlign="justify" margin="0 0 0 35px">
             <BlockContent
               title="Technologies"
               paragraph="On my early years i worked with the LAMP stack, then moved to C# & Sql Server mostly for webapps.
-                        The last couple of years i have worked with node and i have a few MEAN deployments.">
+              The last couple of years i have worked with Backbone, Node, Angular and React.">
             </BlockContent>
           </FlexContent>
       </Flex>
