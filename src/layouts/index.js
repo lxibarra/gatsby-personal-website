@@ -12,7 +12,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: data.site.siteMetadata.description }
       ]}
-    />
+    >
+      <html lang="en" />
+    </Helmet>
     <div className="content-wrapper">
       {children()}
     </div>
