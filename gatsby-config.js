@@ -13,7 +13,7 @@ module.exports = {
         "lang": "English",
         "name": "@ricardoibarrai Fullstack web developer",
         "scope": "/",
-        "display": "browser",
+        "display": "minimal-ui",
         "start_url": "https://doitfy.com/",
         "short_name": "doitfy",
         "theme_color": "transparent",
